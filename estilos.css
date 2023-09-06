@@ -1,0 +1,85 @@
+body{
+    background-image: radial-gradient(circle at 71.39% 50%, #50302e 0, #412828 12.5%, #301e20 25%, #1d1415 37.5%, #000000 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
+}
+.seccion1{
+    justify-content: space-between;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    background: linear-gradient(135deg, #f6c047 0, #f3b245 12.5%, #eca245 25%, #e19344 37.5%, #d48242 50%, #c67240 62.5%, #b8653f 75%, #ab593e 87.5%, #a04f3d 100%);
+}
+.seccion1 ul{
+    font-size: 300%;
+    
+}
+navegacion1{
+    text-align: center;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:60px;
+   
+}
+.separador {
+    color:rgb(255, 255, 255);
+}
+ li {
+     display:inline;
+     padding-left:10px;
+     padding-right:10px;
+    
+}
+a {
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+}
+a:hover {
+    color:rgba(0, 194, 201, 0.952);
+    background-color: slateblue;
+}
+.banner img{
+    width: 100%;
+    height: 1020px;
+
+}
+.contactos{
+    display: grid;
+    grid-template-columns: 160px 160px 160px;
+
+}
+.imagenes{
+    justify-content: space-between;
+}
+.imagenes img{
+    border-radius: 3%;
+    width: 582px;
+    height: 582px;
+    background-color: #000000;
+}
+.textos{
+    display: grid;
+    grid-template-columns: auto auto;
+   font-size:  30px;
+   color: aliceblue;
+   justify-content: space-around;
+}
+.textos p{
+    width: 700px;
+}
+.imagenes2 img{
+    border-radius: 3%;
+    width: 582px;
+    height: 582px;
+    background-color: #000000;
+}
+.imagenes2{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+footer h2{
+    color: #a04f3d;
+}
+footer{
+    background-color: #301e20;
+    text-align: center;
+}
